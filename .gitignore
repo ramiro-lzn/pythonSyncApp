@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+
+# Build / packaging
+build/
+dist/
+
+# Local data
+inventory.db
+*.sqlite3
+*.log
+
+# Local CSVs if they are runtime/export files
+price.csv
+PRICES.CSV
+SALES.CSV
+
+# Editor files
+.vscode/
+.idea/
+
+# Secrets
+.env
